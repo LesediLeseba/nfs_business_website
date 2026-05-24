@@ -1,0 +1,763 @@
+<!doctype html>
+
+<html class="light" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Request a Quote | Nivho Funeral Services</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              tertiary: "#4c1a00",
+              "surface-container-highest": "#e2e2e5",
+              "secondary-container": "#d8e0ed",
+              "inverse-on-surface": "#f0f0f3",
+              "surface-container-lowest": "#ffffff",
+              "surface-container": "#eeeef0",
+              "primary-fixed-dim": "#bcc2ff",
+              "on-tertiary-fixed": "#351000",
+              "on-error-container": "#93000a",
+              "tertiary-fixed": "#ffdbcc",
+              "surface-dim": "#dadadc",
+              "on-secondary-container": "#5b636e",
+              "on-secondary-fixed-variant": "#3f4752",
+              "surface-tint": "#4955b3",
+              "on-tertiary-fixed-variant": "#793105",
+              "primary-fixed": "#dfe0ff",
+              "on-error": "#ffffff",
+              "tertiary-fixed-dim": "#ffb694",
+              "on-tertiary": "#ffffff",
+              "on-primary-fixed": "#000c62",
+              "surface-container-low": "#f3f3f6",
+              "secondary-fixed-dim": "#bfc7d4",
+              "on-secondary": "#ffffff",
+              "on-surface-variant": "#454652",
+              "error-container": "#ffdad6",
+              "secondary-fixed": "#dbe3f0",
+              "primary-container": "#283593",
+              "on-primary-fixed-variant": "#303c9a",
+              secondary: "#575f6a",
+              "on-tertiary-container": "#f79261",
+              "on-primary": "#ffffff",
+              background: "#f9f9fc",
+              "on-background": "#1a1c1e",
+              error: "#ba1a1a",
+              "surface-variant": "#e2e2e5",
+              "on-primary-container": "#9aa5ff",
+              "tertiary-container": "#702a00",
+              "on-secondary-fixed": "#141c25",
+              "outline-variant": "#c6c5d4",
+              "inverse-primary": "#bcc2ff",
+              outline: "#767683",
+              "surface-container-high": "#e8e8ea",
+              "surface-bright": "#f9f9fc",
+              surface: "#f9f9fc",
+              "inverse-surface": "#2f3133",
+              primary: "#0b1a7d",
+              "on-surface": "#1a1c1e",
+            },
+            borderRadius: {
+              DEFAULT: "0.125rem",
+              lg: "0.25rem",
+              xl: "0.5rem",
+              full: "0.75rem",
+            },
+            spacing: {
+              "margin-mobile": "16px",
+              "margin-desktop": "48px",
+              gutter: "24px",
+              base: "8px",
+              "container-max": "1200px",
+            },
+            fontFamily: {
+              "body-lg": ["Inter"],
+              "body-md": ["Inter"],
+              "headline-md": ["Libre Caslon Text"],
+              "headline-lg": ["Libre Caslon Text"],
+              "headline-lg-mobile": ["Libre Caslon Text"],
+              "label-md": ["Inter"],
+              "headline-xl": ["Libre Caslon Text"],
+            },
+            fontSize: {
+              "body-lg": ["18px", { lineHeight: "28px", fontWeight: "400" }],
+              "body-md": ["16px", { lineHeight: "24px", fontWeight: "400" }],
+              "headline-md": [
+                "24px",
+                { lineHeight: "32px", fontWeight: "600" },
+              ],
+              "headline-lg": [
+                "32px",
+                { lineHeight: "40px", fontWeight: "600" },
+              ],
+              "headline-lg-mobile": [
+                "28px",
+                { lineHeight: "36px", fontWeight: "600" },
+              ],
+              "label-md": [
+                "14px",
+                {
+                  lineHeight: "20px",
+                  letterSpacing: "0.05em",
+                  fontWeight: "600",
+                },
+              ],
+              "headline-xl": [
+                "48px",
+                {
+                  lineHeight: "56px",
+                  letterSpacing: "-0.02em",
+                  fontWeight: "700",
+                },
+              ],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings:
+          "FILL" 0,
+          "wght" 400,
+          "GRAD" 0,
+          "opsz" 24;
+      }
+      .form-step {
+        display: none;
+      }
+      .form-step.active {
+        display: block;
+      }
+      .custom-scrollbar::-webkit-scrollbar {
+        width: 6px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: #767683;
+        border-radius: 10px;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css" />
+    <link rel="icon" href="assets/screen.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body
+    class="bg-background text-on-surface font-body-md selection:bg-secondary-container selection:text-on-secondary-container"
+  >
+    <!-- TopNavBar -->
+     <header
+      class="bg-surface dark:bg-inverse-surface border-b border-outline-variant dark:border-outline sticky top-0 z-50">
+      <div
+        class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
+        <div
+          class="text-headline-md font-headline-md font-bold text-primary dark:text-inverse-primary flex items-center gap-2">
+          <img
+            alt="Nivho logo"
+            class="h-12 md:h-16 w-auto grayscale-0 hover:grayscale transition-all"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCh8vbd8kh9jf8tOO4z2J1lctkCg2iF91NXIgYJTaAbwt2u8ZAkSx-uLPaU9-l6M9Us1wsz4EjXXmLz3ynZBlT_-wNHxq2FKSUoayN3BpCwB1rI6tPJKWeWB4KZY9aKgKKeLl85T-NKVLROGHzDtZ8bXrIpy-ep3GP3OlyCi1ZC3Wb1mKsIF6BBLPDNkOVfk0xYlQPfHuREn8ByNyj5ZJFKQ9wvxkC_Z9d77cFT46CsLZVZJCmkSJ-FSZ5EK8fG6WB9giAtPkZWIELi" />
+        </div>
+
+        <nav class="hidden md:flex gap-8 items-center">
+          <a
+            class="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant pb-1 hover:text-primary dark:hover:text-inverse-primary transition-colors duration-200"
+            href="../index.html"
+            >Home</a
+          >
+          <a
+            class="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant pb-1 hover:text-primary dark:hover:text-inverse-primary transition-colors duration-200"
+            href="services.html"
+            >Services</a
+          >
+          <a
+            class="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant border-b-2 border-primary dark:border-inverse-primary pb-1 text-primary dark:hover:text-inverse-primary transition-colors duration-200"
+            href="contact.html"
+            >Contact</a
+          >
+        </nav>
+
+        <button
+          onclick="window.location.href = 'tel:+27605003132'"
+          class="bg-primary text-on-primary px-6 py-2 rounded transition-opacity hidden md:flex active:opacity-80 font-label-md text-label-md">
+          Call Now
+        </button>
+
+        <button
+          id="hamburger"
+          class="flex md:hidden flex-col gap-1.5 justify-center items-center w-8 h-8 z-50 relative focus:outline-none">
+          <span
+            class="bar w-6 h-0.5 bg-on-surface dark:bg-surface-variant transition-all duration-300"></span>
+          <span
+            class="bar w-6 h-0.5 bg-on-surface dark:bg-surface-variant transition-all duration-300"></span>
+          <span
+            class="bar w-6 h-0.5 bg-on-surface dark:bg-surface-variant transition-all duration-300"></span>
+        </button>
+      </div>
+
+      <nav
+        id="nav-menu"
+        class="nav-menu md:hidden flex flex-col items-center gap-6 bg-surface dark:bg-inverse-surface border-b border-outline-variant">
+        <a
+          class="nav-link font-label-md text-headline-sm text-on-surface-variant dark:text-surface-variant"
+          href="../index.html"
+          >Home</a
+        >
+        <a
+          class="nav-link font-label-md text-headline-sm text-on-surface-variant dark:text-surface-variant"
+          href="services.html"
+          >Services</a
+        >
+        <a
+          class="nav-link font-label-md text-headline-sm text-on-surface-variant dark:text-surface-variant"
+          href="contact.html"
+          >Contact</a
+        >
+        <button
+          onclick="window.location.href = 'tel:+27605003132'"
+          class="bg-primary text-on-primary px-6 py-2 rounded font-label-md mt-4">
+          Call Now
+        </button>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero Section -->
+      <section
+        class="relative overflow-hidden py-16 md:py-24 bg-surface-container-low"
+      >
+        <div class="absolute inset-0 opacity-10 pointer-events-none">
+          <div
+            class="absolute top-0 right-0 w-96 h-96 bg-primary rounded-full blur-[120px] -translate-y-1/2 translate-x-1/2"
+          ></div>
+          <div
+            class="absolute bottom-0 left-0 w-96 h-96 bg-secondary-container rounded-full blur-[120px] translate-y-1/2 -translate-x-1/2"
+          ></div>
+        </div>
+        <div
+          class="relative max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center"
+        >
+          <h1 class="font-headline-xl text-headline-xl text-primary mb-6">
+            Request a Dignified Quote
+          </h1>
+          <p
+            class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto"
+          >
+            During difficult times, transparency is a form of respect. We
+            provide clear, honest pricing to help your family make informed
+            decisions with peace of mind.
+          </p>
+        </div>
+      </section>
+      <!-- Quote Request Content -->
+      <section
+        class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-12 md:py-20"
+      >
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+          <!-- Left: Benefits / Why Choose Nivho -->
+          <aside class="lg:col-span-4 space-y-gutter">
+            <div
+              class="bg-surface-container-high p-8 rounded-xl border border-outline-variant"
+            >
+              <h2 class="font-headline-md text-headline-md text-primary mb-8">
+                Our Commitment
+              </h2>
+              <div class="space-y-8">
+                <div class="flex gap-4">
+                  <div
+                    class="bg-primary text-on-primary w-12 h-12 flex items-center justify-center rounded-lg flex-shrink-0"
+                  >
+                    <span class="material-symbols-outlined">favorite</span>
+                  </div>
+                  <div>
+                    <h3
+                      class="font-label-md text-label-md text-primary uppercase tracking-wider mb-1"
+                    >
+                      Dignified Care
+                    </h3>
+                    <p
+                      class="font-body-md text-body-md text-on-surface-variant"
+                    >
+                      Every service is handled with the highest level of
+                      cultural sensitivity and personal respect.
+                    </p>
+                  </div>
+                </div>
+                <div class="flex gap-4">
+                  <div
+                    class="bg-primary text-on-primary w-12 h-12 flex items-center justify-center rounded-lg flex-shrink-0"
+                  >
+                    <span class="material-symbols-outlined">payments</span>
+                  </div>
+                  <div>
+                    <h3
+                      class="font-label-md text-label-md text-primary uppercase tracking-wider mb-1"
+                    >
+                      Transparent Pricing
+                    </h3>
+                    <p
+                      class="font-body-md text-body-md text-on-surface-variant"
+                    >
+                      No hidden costs. We provide a detailed breakdown of all
+                      services to ensure full financial clarity.
+                    </p>
+                  </div>
+                </div>
+                <div class="flex gap-4">
+                  <div
+                    class="bg-primary text-on-primary w-12 h-12 flex items-center justify-center rounded-lg flex-shrink-0"
+                  >
+                    <span class="material-symbols-outlined">support_agent</span>
+                  </div>
+                  <div>
+                    <h3
+                      class="font-label-md text-label-md text-primary uppercase tracking-wider mb-1"
+                    >
+                      Professional Support
+                    </h3>
+                    <p
+                      class="font-body-md text-body-md text-on-surface-variant"
+                    >
+                      Our experienced team is available 24/7 to guide you
+                      through every step of the arrangement process.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Image with prompt -->
+            <div class="rounded-xl overflow-hidden aspect-[4/3] relative">
+              <img
+                class="w-full h-full object-cover"
+                data-alt="A serene and tranquil outdoor landscape featuring soft, golden afternoon sunlight filtering through large, ancient oak trees in a well-kept memorial park. The atmosphere is peaceful, dignified, and calm, utilizing a sophisticated palette of deep navy blues in the shadows and warm, soft whites in the highlights. The photography is clean and professional, evoking a sense of stable legacy and quiet respect."
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHKWy3ceASgwDCZQn1WlsweaacL-cbqeIcWXhqio3ki_GIWBcm9P2I9chOZWBar3sRegw5e4r8F-oY7oViXqsHrhxrGCNdvYVL-fJpmEhknmVxpfJVXVDDp9-bcyfdsN3BVqkQR95QNGj_yURcaBc13wGPWn1oAGiBNpv7ejzk_Svxn0VjzOHi3Awsm0DryorsZ1lp12tT-2axVHk5ZL8ZeXcmACLwSHZ9BGNNq29xfaTIw5eyHcyyyWnEar069-tLt5TSbFLlIXd0"
+              />
+            </div>
+          </aside>
+          <!-- Right: Quote Form -->
+          <div
+            class="lg:col-span-8 bg-surface border border-outline-variant rounded-xl p-6 md:p-10"
+          >
+            <form class="space-y-10" id="quoteForm">
+              <!-- Step 1: Personal Details -->
+              <div class="form-step active" id="step-1">
+                <div class="flex items-center gap-3 mb-8">
+                  <span
+                    class="bg-primary text-on-primary text-label-md w-8 h-8 flex items-center justify-center rounded-full"
+                    >1</span
+                  >
+                  <h3 class="font-headline-md text-headline-md text-primary">
+                    Personal Details
+                  </h3>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div class="space-y-2">
+                    <label
+                      class="font-label-md text-label-md text-on-surface-variant"
+                      >Full Name</label
+                    >
+                    <input
+                      class="w-full bg-surface-container-low border border-outline-variant rounded-lg p-3 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
+                      placeholder="e.g. Sipho Nkosi"
+                      type="text"
+                    />
+                  </div>
+                  <div class="space-y-2">
+                    <label
+                      class="font-label-md text-label-md text-on-surface-variant"
+                      >Phone Number</label
+                    >
+                    <input
+                      class="w-full bg-surface-container-low border border-outline-variant rounded-lg p-3 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
+                      placeholder="+27 82 000 0000"
+                      type="tel"
+                    />
+                  </div>
+                  <div class="space-y-2">
+                    <label
+                      class="font-label-md text-label-md text-on-surface-variant"
+                      >Email Address</label
+                    >
+                    <input
+                      class="w-full bg-surface-container-low border border-outline-variant rounded-lg p-3 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
+                      placeholder="email@example.co.za"
+                      type="email"
+                    />
+                  </div>
+                  <div class="space-y-2">
+                    <label
+                      class="font-label-md text-label-md text-on-surface-variant"
+                      >Preferred Contact Method</label
+                    >
+                    <div class="flex gap-4 py-2">
+                      <label class="flex items-center gap-2 cursor-pointer">
+                        <input
+                          class="w-4 h-4 text-primary border-outline-variant focus:ring-primary"
+                          name="contact"
+                          type="radio"
+                        />
+                        <span class="font-body-md text-body-md">Phone</span>
+                      </label>
+                      <label class="flex items-center gap-2 cursor-pointer">
+                        <input
+                          class="w-4 h-4 text-primary border-outline-variant focus:ring-primary"
+                          name="contact"
+                          type="radio"
+                        />
+                        <span class="font-body-md text-body-md">Email</span>
+                      </label>
+                      <label class="flex items-center gap-2 cursor-pointer">
+                        <input
+                          class="w-4 h-4 text-primary border-outline-variant focus:ring-primary"
+                          name="contact"
+                          type="radio"
+                        />
+                        <span class="font-body-md text-body-md">WhatsApp</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Step 2: Service Interest -->
+              <div class="form-step active" id="step-2">
+                <div class="flex items-center gap-3 mb-8">
+                  <span
+                    class="bg-primary text-on-primary text-label-md w-8 h-8 flex items-center justify-center rounded-full"
+                    >2</span
+                  >
+                  <h3 class="font-headline-md text-headline-md text-primary">
+                    Service Selection
+                  </h3>
+                </div>
+                <div class="space-y-4">
+                  <label
+                    class="font-label-md text-label-md text-on-surface-variant block mb-2"
+                    >Select a Service Plan</label
+                  >
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div
+                      class="border border-outline-variant rounded-lg p-4 cursor-pointer hover:border-primary transition-all has-[:checked]:bg-secondary-container has-[:checked]:border-primary"
+                    >
+                      <label class="flex items-center gap-3 cursor-pointer">
+                        <input
+                          class="w-5 h-5 text-primary border-outline-variant focus:ring-primary"
+                          name="plan"
+                          type="radio"
+                        />
+                        <div>
+                          <div class="font-label-md text-label-md text-primary">
+                            Family Plan A
+                          </div>
+                          <div class="text-xs text-on-surface-variant">
+                            Basic dignified service coverage
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                    <div
+                      class="border border-outline-variant rounded-lg p-4 cursor-pointer hover:border-primary transition-all has-[:checked]:bg-secondary-container has-[:checked]:border-primary"
+                    >
+                      <label class="flex items-center gap-3 cursor-pointer">
+                        <input
+                          class="w-5 h-5 text-primary border-outline-variant focus:ring-primary"
+                          name="plan"
+                          type="radio"
+                        />
+                        <div>
+                          <div class="font-label-md text-label-md text-primary">
+                            Family Plan B
+                          </div>
+                          <div class="text-xs text-on-surface-variant">
+                            Comprehensive family support
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                    <div
+                      class="border border-outline-variant rounded-lg p-4 cursor-pointer hover:border-primary transition-all has-[:checked]:bg-secondary-container has-[:checked]:border-primary"
+                    >
+                      <label class="flex items-center gap-3 cursor-pointer">
+                        <input
+                          class="w-5 h-5 text-primary border-outline-variant focus:ring-primary"
+                          name="plan"
+                          type="radio"
+                        />
+                        <div>
+                          <div class="font-label-md text-label-md text-primary">
+                            Family Plan C
+                          </div>
+                          <div class="text-xs text-on-surface-variant">
+                            Premium full-service arrangement
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                    <div
+                      class="border border-outline-variant rounded-lg p-4 cursor-pointer hover:border-primary transition-all has-[:checked]:bg-secondary-container has-[:checked]:border-primary"
+                    >
+                      <label class="flex items-center gap-3 cursor-pointer">
+                        <input
+                          class="w-5 h-5 text-primary border-outline-variant focus:ring-primary"
+                          name="plan"
+                          type="radio"
+                        />
+                        <div>
+                          <div class="font-label-md text-label-md text-primary">
+                            Custom Arrangement
+                          </div>
+                          <div class="text-xs text-on-surface-variant">
+                            Tailored to specific requirements
+                          </div>
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Step 3: Additional Needs -->
+              <div class="form-step active" id="step-3">
+                <div class="flex items-center gap-3 mb-8">
+                  <span
+                    class="bg-primary text-on-primary text-label-md w-8 h-8 flex items-center justify-center rounded-full"
+                    >3</span
+                  >
+                  <h3 class="font-headline-md text-headline-md text-primary">
+                    Additional Needs
+                  </h3>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                  <label
+                    class="flex items-center gap-3 p-4 border border-outline-variant rounded-lg hover:bg-surface-container transition-colors cursor-pointer"
+                  >
+                    <input
+                      class="w-5 h-5 rounded text-primary border-outline-variant focus:ring-primary"
+                      type="checkbox"
+                    />
+                    <span class="font-body-md text-body-md"
+                      >Professional Bus Service</span
+                    >
+                  </label>
+                  <label
+                    class="flex items-center gap-3 p-4 border border-outline-variant rounded-lg hover:bg-surface-container transition-colors cursor-pointer"
+                  >
+                    <input
+                      class="w-5 h-5 rounded text-primary border-outline-variant focus:ring-primary"
+                      type="checkbox"
+                    />
+                    <span class="font-body-md text-body-md"
+                      >Grave Decoration</span
+                    >
+                  </label>
+                  <label
+                    class="flex items-center gap-3 p-4 border border-outline-variant rounded-lg hover:bg-surface-container transition-colors cursor-pointer"
+                  >
+                    <input
+                      class="w-5 h-5 rounded text-primary border-outline-variant focus:ring-primary"
+                      type="checkbox"
+                    />
+                    <span class="font-body-md text-body-md"
+                      >Floral Arrangements</span
+                    >
+                  </label>
+                  <label
+                    class="flex items-center gap-3 p-4 border border-outline-variant rounded-lg hover:bg-surface-container transition-colors cursor-pointer"
+                  >
+                    <input
+                      class="w-5 h-5 rounded text-primary border-outline-variant focus:ring-primary"
+                      type="checkbox"
+                    />
+                    <span class="font-body-md text-body-md"
+                      >Repatriation Services</span
+                    >
+                  </label>
+                </div>
+                <div class="space-y-2">
+                  <label
+                    class="font-label-md text-label-md text-on-surface-variant"
+                    >Message / Special Requests</label
+                  >
+                  <textarea
+                    class="w-full bg-surface-container-low border border-outline-variant rounded-lg p-3 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all resize-none"
+                    placeholder="Please share any specific requirements or cultural traditions you'd like us to honor..."
+                    rows="4"
+                  ></textarea>
+                </div>
+              </div>
+              <!-- Submit Button -->
+              <div class="pt-6">
+                <button
+                  class="w-full md:w-auto bg-primary text-on-primary px-10 py-4 rounded-lg font-label-md text-label-md uppercase tracking-widest hover:bg-primary-container transition-all shadow-lg hover:shadow-xl active:scale-[0.98]"
+                  type="submit"
+                >
+                  Submit Quote Request
+                </button>
+                <p class="text-xs text-on-surface-variant mt-4 italic">
+                  * Your request will be processed immediately. A consultant
+                  will contact you within 2 business hours.
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer
+      class="bg-surface-container-highest dark:bg-inverse-surface border-t border-outline-variant"
+    >
+      <div
+        class="grid grid-cols-1 md:grid-cols-4 gap-gutter w-full px-margin-mobile md:px-margin-desktop py-12 max-w-container-max mx-auto"
+      >
+        <div class="col-span-1 md:col-span-1">
+          <div
+            class="text-headline-md font-headline-md font-bold text-primary dark:text-inverse-primary mb-4"
+          >
+            Nivho
+          </div>
+          <p
+            class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant"
+          >
+            Providing dignified care with empathy and respect.
+          </p>
+        </div>
+        <div>
+          <h4
+            class="font-label-md text-label-md text-primary dark:text-inverse-primary mb-4 uppercase tracking-wider"
+          >
+            Navigation
+          </h4>
+          <ul class="space-y-2">
+            <li>
+              <a
+                class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary transition-all"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary transition-all"
+                href="#"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-body-md text-body-md text-primary dark:text-inverse-primary font-bold"
+                href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4
+            class="font-label-md text-label-md text-primary dark:text-inverse-primary mb-4 uppercase tracking-wider"
+          >
+            Legal
+          </h4>
+          <ul class="space-y-2">
+            <li>
+              <a
+                class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary transition-all"
+                href="#"
+                >Terms of Service</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary transition-all"
+                href="#"
+                >Privacy Policy</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4
+            class="font-label-md text-label-md text-primary dark:text-inverse-primary mb-4 uppercase tracking-wider"
+          >
+            Contact Info
+          </h4>
+          <p
+            class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant"
+          >
+            Available 24/7 for emergency assistance.<br />
+            support@nivho.co.za<br />
+            0800-NIVHO-CARE
+          </p>
+        </div>
+      </div>
+      <div
+        class="border-t border-outline-variant w-full px-margin-mobile md:px-margin-desktop py-6 max-w-container-max mx-auto"
+      >
+        <p
+          class="text-center font-label-md text-label-md text-on-surface-variant dark:text-surface-variant"
+        >
+          © 2024 Nivho Funeral Services. All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <script>
+      // Micro-interactions and Form Handlers
+      document
+        .getElementById("quoteForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          const btn = e.target.querySelector('button[type="submit"]');
+          const originalText = btn.innerHTML;
+          btn.disabled = true;
+          btn.innerHTML =
+            '<span class="flex items-center gap-2"><span class="animate-spin material-symbols-outlined">sync</span> Sending...</span>';
+
+          setTimeout(() => {
+            btn.innerHTML =
+              '<span class="flex items-center gap-2"><span class="material-symbols-outlined">check_circle</span> Sent Successfully</span>';
+            btn.classList.replace("bg-primary", "bg-green-600");
+
+            setTimeout(() => {
+              alert(
+                "Thank you. Your quote request has been received. Our team will contact you shortly.",
+              );
+              btn.innerHTML = originalText;
+              btn.disabled = false;
+              btn.classList.replace("bg-green-600", "bg-primary");
+              e.target.reset();
+            }, 2000);
+          }, 1500);
+        });
+
+      // Hover effect for plan selection
+      const planCards = document.querySelectorAll('input[name="plan"]');
+      planCards.forEach((input) => {
+        input.addEventListener("change", () => {
+          document.querySelectorAll('input[name="plan"]').forEach((p) => {
+            p.closest(".border").classList.remove(
+              "bg-secondary-container",
+              "border-primary",
+            );
+          });
+          if (input.checked) {
+            input
+              .closest(".border")
+              .classList.add("bg-secondary-container", "border-primary");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

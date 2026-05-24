@@ -1,0 +1,533 @@
+<!doctype html>
+<html class="scroll-smooth" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Nivho Funeral Services | Your Peace of Mind is Our Concern</title>
+    <script defer src="/assets/fontawesome/js/fontawesome.js"></script>
+    <script defer src="assets/fontawesome/js/brands.js"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;600;700&amp;family=Inter:wght@400;600&amp;display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet" />
+    
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "inverse-surface": "#2f3133",
+              "primary-fixed": "#dfe0ff",
+              "on-error-container": "#93000a",
+              "on-surface-variant": "#454652",
+              "on-primary-fixed-variant": "#303c9a",
+              "outline-variant": "#c6c5d4",
+              "on-primary-container": "#9aa5ff",
+              outline: "#767683",
+              "primary-fixed-dim": "#bcc2ff",
+              secondary: "#575f6a",
+              "surface-container-highest": "#e2e2e5",
+              "tertiary-fixed-dim": "#ffb694",
+              "on-error": "#ffffff",
+              "surface-container": "#eeeef0",
+              "surface-tint": "#4955b3",
+              primary: "#0b1a7d",
+              tertiary: "#4c1a00",
+              "tertiary-fixed": "#ffdbcc",
+              "on-secondary-fixed-variant": "#3f4752",
+              "secondary-fixed": "#dbe3f0",
+              "secondary-fixed-dim": "#bfc7d4",
+              "on-tertiary-container": "#f79261",
+              "on-surface": "#1a1c1e",
+              "on-secondary-container": "#5b636e",
+              "surface-container-high": "#e8e8ea",
+              "on-tertiary-fixed-variant": "#793105",
+              "on-primary": "#ffffff",
+              "error-container": "#ffdad6",
+              "secondary-container": "#d8e0ed",
+              error: "#ba1a1a",
+              "surface-container-lowest": "#ffffff",
+              "on-tertiary-fixed": "#351000",
+              "on-secondary": "#ffffff",
+              background: "#f9f9fc",
+              "tertiary-container": "#702a00",
+              "on-primary-fixed": "#000c62",
+              surface: "#f9f9fc",
+              "inverse-primary": "#bcc2ff",
+              "on-secondary-fixed": "#141c25",
+              "inverse-on-surface": "#f0f0f3",
+              "primary-container": "#283593",
+              "surface-container-low": "#f3f3f6",
+              "on-background": "#1a1c1e",
+              "surface-variant": "#e2e2e5",
+              "surface-bright": "#f9f9fc",
+              "on-tertiary": "#ffffff",
+              "surface-dim": "#dadadc",
+            },
+            borderRadius: {
+              DEFAULT: "0.125rem",
+              lg: "0.25rem",
+              xl: "0.5rem",
+              full: "0.75rem",
+            },
+            spacing: {
+              base: "8px",
+              "margin-desktop": "48px",
+              "container-max": "1200px",
+              "margin-mobile": "16px",
+              gutter: "24px",
+            },
+            fontFamily: {
+              "label-md": ["Inter"],
+              "body-lg": ["Inter"],
+              "headline-lg-mobile": ["Libre Caslon Text"],
+              "headline-xl": ["Libre Caslon Text"],
+              "headline-md": ["Libre Caslon Text"],
+              "headline-lg": ["Libre Caslon Text"],
+              "body-md": ["Inter"],
+            },
+            fontSize: {
+              "label-md": [
+                "14px",
+                {
+                  lineHeight: "20px",
+                  letterSpacing: "0.05em",
+                  fontWeight: "600",
+                },
+              ],
+              "body-lg": ["18px", { lineHeight: "28px", fontWeight: "400" }],
+              "headline-lg-mobile": [
+                "28px",
+                { lineHeight: "36px", fontWeight: "600" },
+              ],
+              "headline-xl": [
+                "48px",
+                {
+                  lineHeight: "56px",
+                  letterSpacing: "-0.02em",
+                  fontWeight: "700",
+                },
+              ],
+              "headline-md": [
+                "24px",
+                { lineHeight: "32px", fontWeight: "600" },
+              ],
+              "headline-lg": [
+                "32px",
+                { lineHeight: "40px", fontWeight: "600" },
+              ],
+              "body-md": ["16px", { lineHeight: "24px", fontWeight: "400" }],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings:
+          "FILL" 0,
+          "wght" 400,
+          "GRAD" 0,
+          "opsz" 24;
+      }
+      .hero-gradient {
+        background: linear-gradient(
+          to right,
+          rgba(11, 26, 125, 0.85),
+          rgba(11, 26, 125, 0.4)
+        );
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css" />
+    <link rel="icon" href="assets/screen.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body
+    class="bg-background text-on-background font-body-md selection:bg-primary-container selection:text-on-primary-container">
+    <!-- TopNavBar -->
+    <header
+      class="bg-surface dark:bg-inverse-surface border-b border-outline-variant dark:border-outline sticky top-0 z-50">
+      <div
+        class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
+        <div
+          class="text-headline-md font-headline-md font-bold text-primary dark:text-inverse-primary flex items-center gap-2">
+          <img
+            alt="Nivho logo"
+            class="h-12 md:h-16 w-auto grayscale-0 hover:grayscale transition-all"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCh8vbd8kh9jf8tOO4z2J1lctkCg2iF91NXIgYJTaAbwt2u8ZAkSx-uLPaU9-l6M9Us1wsz4EjXXmLz3ynZBlT_-wNHxq2FKSUoayN3BpCwB1rI6tPJKWeWB4KZY9aKgKKeLl85T-NKVLROGHzDtZ8bXrIpy-ep3GP3OlyCi1ZC3Wb1mKsIF6BBLPDNkOVfk0xYlQPfHuREn8ByNyj5ZJFKQ9wvxkC_Z9d77cFT46CsLZVZJCmkSJ-FSZ5EK8fG6WB9giAtPkZWIELi" />
+        </div>
+
+        <nav class="hidden md:flex gap-8 items-center">
+          <a
+            class="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant border-b-2 border-primary dark:border-inverse-primary pb-1 text-primary dark:hover:text-inverse-primary transition-colors duration-200"
+            href="index.html"
+            >Home</a
+          >
+          <a
+            class="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant pb-1 hover:text-primary dark:hover:text-inverse-primary transition-colors duration-200"
+            href="pages/services.html"
+            >Services</a
+          >
+          <a
+            class="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant pb-1 hover:text-primary dark:hover:text-inverse-primary transition-colors duration-200"
+            href="pages/contact.html"
+            >Contact</a
+          >
+        </nav>
+
+        <button
+          onclick="window.location.href = 'tel:+27605003132'"
+          class="bg-primary text-on-primary px-6 py-2 rounded transition-opacity hidden md:flex active:opacity-80 font-label-md text-label-md">
+          Call Now
+        </button>
+
+        <button
+          id="hamburger"
+          class="flex md:hidden flex-col gap-1.5 justify-center items-center w-8 h-8 z-50 relative focus:outline-none">
+          <span
+            class="bar w-6 h-0.5 bg-on-surface dark:bg-surface-variant transition-all duration-300"></span>
+          <span
+            class="bar w-6 h-0.5 bg-on-surface dark:bg-surface-variant transition-all duration-300"></span>
+          <span
+            class="bar w-6 h-0.5 bg-on-surface dark:bg-surface-variant transition-all duration-300"></span>
+        </button>
+      </div>
+
+      <nav
+        id="nav-menu"
+        class="nav-menu md:hidden flex flex-col items-center gap-6 bg-surface dark:bg-inverse-surface border-b border-outline-variant">
+        <a
+          class="nav-link font-label-md text-headline-sm text-on-surface-variant dark:text-surface-variant"
+          href="index.html"
+          >Home</a
+        >
+        <a
+          class="nav-link font-label-md text-headline-sm text-on-surface-variant dark:text-surface-variant"
+          href="pages/services.html"
+          >Services</a
+        >
+        <a
+          class="nav-link font-label-md text-headline-sm text-on-surface-variant dark:text-surface-variant"
+          href="pages/contact.html"
+          >Contact</a
+        >
+        <button
+          onclick="window.location.href = 'tel:+27605003132'"
+          class="bg-primary text-on-primary px-6 py-2 rounded font-label-md mt-4">
+          Call Now
+        </button>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero Section -->
+      <section class="relative h-[80vh] flex items-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+          <img
+            alt="Respectful funeral setup"
+            class="w-full h-full object-cover"
+            src="assets/images/20260314_094752.jpg" />
+          <div class="absolute inset-0 hero-gradient"></div>
+        </div>
+        <div
+          class="relative z-10 w-full px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+          <div class="max-w-2xl">
+            <h1
+              class="font-headline-xl text-headline-xl text-on-primary mb-6 md:text-headline-xl text-headline-lg-mobile">
+              Dignified Care with Empathy and Respect.
+            </h1>
+            <p
+              class="font-body-lg text-body-lg text-on-primary opacity-90 mb-8 max-w-lg">
+              Providing professional funeral services across South Africa during
+              your time of need. We honor your loved ones with the grace they
+              deserve.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+              <button
+                class="bg-on-primary text-primary px-8 py-4 rounded-DEFAULT font-label-md text-label-md hover:bg-surface-container-highest transition-colors"
+                onclick="location.href = 'pages/services.html'">
+                View Our Plans
+              </button>
+              <button
+                class="border border-on-primary text-on-primary px-8 py-4 rounded-DEFAULT font-label-md text-label-md hover:bg-on-primary/10 transition-colors"
+                onclick="location.href = 'pages/contact.html'">
+                Contact a Consultant
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Introduction Section -->
+      <section class="py-24 bg-surface-container-lowest">
+        <div
+          class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <div>
+              <span
+                class="font-label-md text-label-md text-primary tracking-widest uppercase mb-4 block"
+                >Welcome to Nivho</span
+              >
+              <h2
+                class="font-headline-lg text-headline-lg text-on-surface mb-6">
+                Our Commitment to Your Family
+              </h2>
+              <p
+                class="font-body-md text-body-md text-on-surface-variant mb-6 leading-relaxed">
+                At Nivho Funeral Services, we understand that losing a loved one
+                is one of life's most challenging experiences. We are dedicated
+                to providing compassionate, professional, and culturally
+                respectful funeral services tailored to the diverse needs of
+                South African families.
+              </p>
+              <p
+                class="font-body-md text-body-md text-on-surface-variant mb-8 leading-relaxed">
+                Our team works tirelessly to ensure that every detail is handled
+                with the utmost care, allowing you the space to grieve and
+                celebrate the legacy of those who have passed.
+              </p>
+              <div
+                class="grid grid-cols-2 gap-gutter border-t border-outline-variant pt-8">
+                <div>
+                  <h4 class="font-headline-md text-headline-md text-primary">
+                    24/7
+                  </h4>
+                  <p
+                    class="font-label-md text-label-md text-on-surface-variant">
+                    Support Available
+                  </p>
+                </div>
+                <div>
+                  <h4 class="font-headline-md text-headline-md text-primary">
+                    5+
+                  </h4>
+                  <p
+                    class="font-label-md text-label-md text-on-surface-variant">
+                    Years of Service
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="relative">
+              <div
+                class="aspect-[4/5] rounded-DEFAULT overflow-hidden border border-outline-variant">
+                <img
+                  alt="Compassionate atmosphere and setup"
+                  class="w-full h-full object-cover"
+                  src="assets/images/20260314_091926.jpg" />
+              </div>
+              <div
+                class="absolute -bottom-6 -left-6 bg-primary p-8 hidden lg:block shadow-lg">
+                <span
+                  class="material-symbols-outlined text-on-primary text-4xl mb-4"
+                  data-weight="fill"
+                  >temple_buddhist</span
+                >
+                <p class="text-on-primary font-headline-md text-headline-md">
+                  Trusted across South Africa.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Featured Services -->
+      <section class="py-24 bg-surface">
+        <div
+          class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+          <div class="text-center mb-16">
+            <h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">
+              Our Primary Services
+            </h2>
+            <p
+              class="font-body-md text-body-md text-on-surface-variant max-w-2xl mx-auto">
+              We offer a comprehensive range of services designed to provide
+              peace of mind and honor the departed with elegance and dignity.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+            <!-- Service Card 1 -->
+            <div
+              class="bg-surface-container-low border border-outline-variant hover:border-primary transition-all group">
+              <div class="p-8">
+                <span
+                  class="material-symbols-outlined text-primary text-4xl mb-6 block group-hover:scale-110 transition-transform"
+                  data-weight="fill"
+                  >groups</span
+                >
+                <h3
+                  class="font-headline-md text-headline-md text-on-surface mb-4">
+                  Family Plans
+                </h3>
+                <p
+                  class="font-body-md text-body-md text-on-surface-variant mb-6">
+                  Structured insurance and coverage plans to ensure your entire
+                  family is protected during difficult times.
+                </p>
+                <a
+                  class="text-primary font-label-md text-label-md flex items-center gap-2 hover:gap-4 transition-all"
+                  href="pages/services.html">
+                  Learn More
+                  <span class="material-symbols-outlined text-sm"
+                    >arrow_forward</span
+                  >
+                </a>
+              </div>
+            </div>
+            <!-- Service Card 2 -->
+            <div
+              class="bg-primary text-on-primary border border-primary shadow-xl">
+              <div class="p-8">
+                <span
+                  class="material-symbols-outlined text-on-primary text-4xl mb-6 block"
+                  data-weight="fill"
+                  >church</span
+                >
+                <h3 class="font-headline-md text-headline-md mb-4">
+                  Burial Services
+                </h3>
+                <p class="font-body-md text-body-md text-on-primary/80 mb-6">
+                  Traditional and respectful burial arrangements, managing
+                  everything from logistics to the final ceremony.
+                </p>
+                <a
+                  class="text-on-primary font-label-md text-label-md flex items-center gap-2 hover:gap-4 transition-all"
+                  href="pages/services.html">
+                  Learn More
+                  <span class="material-symbols-outlined text-sm"
+                    >arrow_forward</span
+                  >
+                </a>
+              </div>
+            </div>
+            <div
+              class="bg-surface-container-low border border-outline-variant hover:border-primary transition-all group">
+              <div class="p-8">
+                <span
+                  class="material-symbols-outlined text-primary text-4xl mb-6 block group-hover:scale-110 transition-transform"
+                  data-weight="fill"
+                  >airport_shuttle</span
+                >
+                <h3
+                  class="font-headline-md text-headline-md text-on-surface mb-4">
+                  Funeral Car Rentals
+                </h3>
+                <p
+                  class="font-body-md text-body-md text-on-surface-variant mb-6">
+                  Professional and dignified transportation services providing a
+                  fleet of elegant hearses and family cars for the final
+                  journey.
+                </p>
+                <a
+                  class="text-primary font-label-md text-label-md flex items-center gap-2 hover:gap-4 transition-all"
+                  href="pages/services.html">
+                  Learn More
+                  <span class="material-symbols-outlined text-sm"
+                    >arrow_forward</span
+                  >
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CTA / Quote -->
+      <section class="py-24 bg-primary overflow-hidden relative">
+        <div class="absolute top-0 right-0 opacity-10 pointer-events">
+          <span
+            class="material-symbols-outlined text-[200px]"
+            style="font-variation-settings: &quot;FILL&quot; 1"
+            >spa</span
+          >
+        </div>
+        <div
+          class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto relative z-10 text-center">
+          <div class="max-w-3xl mx-auto">
+            <h2
+              class="font-headline-lg text-headline-lg text-on-primary mb-8 italic">
+              "In the quiet moments of grief, we stand as your pillar of
+              strength and reliability."
+            </h2>
+            <p
+              class="font-label-md text-label-md text-on-primary/70 uppercase tracking-[0.2em] mb-12">
+              — Nivho Leadership
+            </p>
+            <button
+              onclick="location.href = 'pages/contact.html'"
+              class="bg-on-primary text-primary px-10 py-5 rounded-DEFAULT font-label-md text-label-md font-bold hover:scale-105 transition-transform">
+              Get a Custom Quote Today
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer
+      class="bg-surface-container-highest dark:bg-inverse-surface mt-20 border-t border-outline-variant">
+      <div
+        class="grid grid-cols-1 md:grid-cols-4 gap-gutter w-full px-margin-mobile md:px-margin-desktop py-12 max-w-container-max mx-auto">
+        <div class="md:col-span-2">
+          <div
+            class="text-headline-md font-headline-md font-bold text-primary dark:text-inverse-primary mb-4">
+            Nivho Funeral Services
+          </div>
+          <p
+            class="text-on-surface-variant dark:text-surface-variant font-body-md max-w-md">
+            © 2024 Nivho Funeral Services. Providing dignified care with empathy
+            and respect across South Africa. Your stability during times of
+            loss.
+          </p>
+          <div class="mt-6 flex gap-4">
+            <span class="material-symbols-outlined text-primary"
+              >location_on</span
+            >
+            <span class="text-body-md text-on-surface-variant"
+              >Dlamini St, Sharpeville, Vereeniging, 1928</span
+            >
+          </div>
+        </div>
+        <div>
+          <h4 class="font-label-md text-label-md text-primary mb-6">
+            Quick Links
+          </h4>
+          <nav class="flex flex-col gap-4">
+            <a
+              class="text-primary dark:text-inverse-primary font-bold"
+              href="index.html"
+              >Home</a
+            >
+            <a
+              class="text-on-surface-variant dark:text-surface-variant hover:text-primary transition-all"
+              href="pages/services.html"
+              >Services</a
+            >
+            <a
+              class="text-on-surface-variant dark:text-surface-variant hover:text-primary transition-all"
+              href="pages/contact.html"
+              >Contact</a
+            >
+          </nav>
+        </div>
+        <div>
+          <h4 class="font-label-md text-label-md text-primary mb-6">Socials</h4>
+          <div class="flex gap-1">
+            <a
+              href="https://www.facebook.com/profile.php?id=61579423136306"
+              class="hover:opacity-80 transition-opacity">
+              <i class="fa-brands fa-square-facebook fa-2xl"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<img
+            alt="Nivho logo"
+            class="h-16 w-auto mb-6 grayscale-0 hover:grayscale transition-all"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCh8vbd8kh9jf8tOO4z2J1lctkCg2iF91NXIgYJTaAbwt2u8ZAkSx-uLPaU9-l6M9Us1wsz4EjXXmLz3ynZBlT_-wNHxq2FKSUoayN3BpCwB1rI6tPJKWeWB4KZY9aKgKKeLl85T-NKVLROGHzDtZ8bXrIpy-ep3GP3OlyCi1ZC3Wb1mKsIF6BBLPDNkOVfk0xYlQPfHuREn8ByNyj5ZJFKQ9wvxkC_Z9d77cFT46CsLZVZJCmkSJ-FSZ5EK8fG6WB9giAtPkZWIELi"
+          />
+
+    <div class="flex gap-4">
+            <a href="#" class="text-primary hover:opacity-70 transition-opacity">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNd3J5TPmLOMFF0WX5YRSSwnUN4liM17RCjLQyaWpCHNBiDEWu8qwQmMl98eiVWPjfs40_uRti0Mzadf8BdJuzfM7Lbb8_RUAL1oHr81jLCbAlbJzLrub-3eAQxLFO6JTE_WVafbM-n-W0Xf2Hr52zZBpfY5gTrcBh-kpnkzLYwiFTk1s28oQLoer2eLjwPtgbNJ5kBZ_auOGx48-IGZKHOD5JdL0bBfDYPhCejXg3nCLnBXE6oWr5v9tkIsi9oO2kOkZfo0XYSQte" alt="Facebook" class="h-6 w-6 object-contain filter brightness-0 invert-[0.1] sepia-[0.5] saturate-[5] hue-rotate-[210deg]">
+            </a>
+            <a href="#" class="hover:opacity-80 transition-opacity">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8IhjbAZJ6u32XevsZ5rXsIoAfUyrxp0rEIFjHzgpbBFGQliq9KzulM3QOzvQUTw2orNeDHWJhPF1EKeCWvgPpJCC2hMBjjQPOiOVTo6v4TVcOmMTrtMSdEspy1mNP9NwCtuLEgXVkM77RTa4v38-p7xX8Riv33x_pdywVmrkwMbC9n1T4apLwtc6MmOzGhBr2nXJrEn0ZrgaK9l17WqQEtRfox65ntA75bXiJK4OY4bTFbwm9e_9_jE4xbuu0CxWNc7Ob-E9lvjbo" alt="WhatsApp" class="h-6 w-6 object-contain filter brightness-0 invert-[0.1] sepia-[0.5] saturate-[5] hue-rotate-[210deg]">
+            </a>
+          </div>
+
+          <p class="font-body-md text-body-md text-on-surface-variant mb-4">
+            Dlamini St, Sharpeville, Vereeniging
+          </p>
+
+          <!-- <h4 class="font-label-md text-label-md text-primary mb-6">Legal</h4>
+          <ul class="space-y-4">
+            <li>
+              <a
+                class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-all"
+                href="pages/terms-of-service.html"
+                >Terms of Service</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-all"
+                href="pages/privacy-policy.html"
+                >Privacy Policy</a
+              >
+            </li>
+          </ul> -->

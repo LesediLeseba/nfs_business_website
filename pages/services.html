@@ -1,0 +1,791 @@
+<!doctype html>
+<html class="light" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Our Services - Nivho Funeral Services</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&amp;family=Inter:wght@400;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "inverse-surface": "#2f3133",
+              "primary-fixed": "#dfe0ff",
+              "on-error-container": "#93000a",
+              "on-surface-variant": "#454652",
+              "on-primary-fixed-variant": "#303c9a",
+              "outline-variant": "#c6c5d4",
+              "on-primary-container": "#9aa5ff",
+              outline: "#767683",
+              "primary-fixed-dim": "#bcc2ff",
+              secondary: "#575f6a",
+              "surface-container-highest": "#e2e2e5",
+              "tertiary-fixed-dim": "#ffb694",
+              "on-error": "#ffffff",
+              "surface-container": "#eeeef0",
+              "surface-tint": "#4955b3",
+              primary: "#0b1a7d",
+              tertiary: "#4c1a00",
+              "tertiary-fixed": "#ffdbcc",
+              "on-secondary-fixed-variant": "#3f4752",
+              "secondary-fixed": "#dbe3f0",
+              "secondary-fixed-dim": "#bfc7d4",
+              "on-tertiary-container": "#f79261",
+              "on-surface": "#1a1c1e",
+              "on-secondary-container": "#5b636e",
+              "surface-container-high": "#e8e8ea",
+              "on-tertiary-fixed-variant": "#793105",
+              "on-primary": "#ffffff",
+              "error-container": "#ffdad6",
+              "secondary-container": "#d8e0ed",
+              error: "#ba1a1a",
+              "surface-container-lowest": "#ffffff",
+              "on-tertiary-fixed": "#351000",
+              "on-secondary": "#ffffff",
+              background: "#f9f9fc",
+              "tertiary-container": "#702a00",
+              "on-primary-fixed": "#000c62",
+              surface: "#f9f9fc",
+              "inverse-primary": "#bcc2ff",
+              "on-secondary-fixed": "#141c25",
+              "inverse-on-surface": "#f0f0f3",
+              "primary-container": "#283593",
+              "surface-container-low": "#f3f3f6",
+              "on-background": "#1a1c1e",
+              "surface-variant": "#e2e2e5",
+              "surface-bright": "#f9f9fc",
+              "on-tertiary": "#ffffff",
+              "surface-dim": "#dadadc",
+            },
+            borderRadius: {
+              DEFAULT: "0.125rem",
+              lg: "0.25rem",
+              xl: "0.5rem",
+              full: "0.75rem",
+            },
+            spacing: {
+              base: "8px",
+              "margin-desktop": "48px",
+              "container-max": "1200px",
+              "margin-mobile": "16px",
+              gutter: "24px",
+            },
+            fontFamily: {
+              "label-md": ["Inter"],
+              "body-lg": ["Inter"],
+              "headline-lg-mobile": ["Libre Caslon Text"],
+              "headline-xl": ["Libre Caslon Text"],
+              "headline-md": ["Libre Caslon Text"],
+              "headline-lg": ["Libre Caslon Text"],
+              "body-md": ["Inter"],
+            },
+            fontSize: {
+              "label-md": [
+                "14px",
+                {
+                  lineHeight: "20px",
+                  letterSpacing: "0.05em",
+                  fontWeight: "600",
+                },
+              ],
+              "body-lg": ["18px", { lineHeight: "28px", fontWeight: "400" }],
+              "headline-lg-mobile": [
+                "28px",
+                { lineHeight: "36px", fontWeight: "600" },
+              ],
+              "headline-xl": [
+                "48px",
+                {
+                  lineHeight: "56px",
+                  letterSpacing: "-0.02em",
+                  fontWeight: "700",
+                },
+              ],
+              "headline-md": [
+                "24px",
+                { lineHeight: "32px", fontWeight: "600" },
+              ],
+              "headline-lg": [
+                "32px",
+                { lineHeight: "40px", fontWeight: "600" },
+              ],
+              "body-md": ["16px", { lineHeight: "24px", fontWeight: "400" }],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings:
+          "FILL" 0,
+          "wght" 400,
+          "GRAD" 0,
+          "opsz" 24;
+      }
+      .nav-active {
+        border-bottom: 2px solid #0b1a7d;
+        font-weight: 700;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css" />
+    <link rel="icon" href="assets/screen.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-background text-on-surface font-body-md">
+    <!-- TopNavBar -->
+     <header
+      class="bg-surface dark:bg-inverse-surface border-b border-outline-variant dark:border-outline sticky top-0 z-50">
+      <div
+        class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
+        <div
+          class="text-headline-md font-headline-md font-bold text-primary dark:text-inverse-primary flex items-center gap-2">
+          <img
+            alt="Nivho logo"
+            class="h-12 md:h-16 w-auto grayscale-0 hover:grayscale transition-all"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCh8vbd8kh9jf8tOO4z2J1lctkCg2iF91NXIgYJTaAbwt2u8ZAkSx-uLPaU9-l6M9Us1wsz4EjXXmLz3ynZBlT_-wNHxq2FKSUoayN3BpCwB1rI6tPJKWeWB4KZY9aKgKKeLl85T-NKVLROGHzDtZ8bXrIpy-ep3GP3OlyCi1ZC3Wb1mKsIF6BBLPDNkOVfk0xYlQPfHuREn8ByNyj5ZJFKQ9wvxkC_Z9d77cFT46CsLZVZJCmkSJ-FSZ5EK8fG6WB9giAtPkZWIELi" />
+        </div>
+
+        <nav class="hidden md:flex gap-8 items-center">
+          <a
+            class="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant pb-1 hover:text-primary dark:hover:text-inverse-primary transition-colors duration-200"
+            href="../index.html"
+            >Home</a
+          >
+          <a
+            class="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant border-b-2 border-primary dark:border-inverse-primary pb-1 text-primary dark:hover:text-inverse-primary transition-colors duration-200"
+            href="services.html"
+            >Services</a
+          >
+          <a
+            class="font-label-md text-label-md text-on-surface-variant dark:text-surface-variant pb-1 hover:text-primary dark:hover:text-inverse-primary transition-colors duration-200"
+            href="contact.html"
+            >Contact</a
+          >
+        </nav>
+
+        <button
+          onclick="window.location.href = 'tel:+27605003132'"
+          class="bg-primary text-on-primary px-6 py-2 rounded transition-opacity hidden md:flex active:opacity-80 font-label-md text-label-md">
+          Call Now
+        </button>
+
+        <button
+          id="hamburger"
+          class="flex md:hidden flex-col gap-1.5 justify-center items-center w-8 h-8 z-50 relative focus:outline-none">
+          <span
+            class="bar w-6 h-0.5 bg-on-surface dark:bg-surface-variant transition-all duration-300"></span>
+          <span
+            class="bar w-6 h-0.5 bg-on-surface dark:bg-surface-variant transition-all duration-300"></span>
+          <span
+            class="bar w-6 h-0.5 bg-on-surface dark:bg-surface-variant transition-all duration-300"></span>
+        </button>
+      </div>
+
+      <nav
+        id="nav-menu"
+        class="nav-menu md:hidden flex flex-col items-center gap-6 bg-surface dark:bg-inverse-surface border-b border-outline-variant">
+        <a
+          class="nav-link font-label-md text-headline-sm text-on-surface-variant dark:text-surface-variant"
+          href="../index.html"
+          >Home</a
+        >
+        <a
+          class="nav-link font-label-md text-headline-sm text-on-surface-variant dark:text-surface-variant"
+          href="services.html"
+          >Services</a
+        >
+        <a
+          class="nav-link font-label-md text-headline-sm text-on-surface-variant dark:text-surface-variant"
+          href="contact.html"
+          >Contact</a
+        >
+        <button
+          onclick="window.location.href = 'tel:+27605003132'"
+          class="bg-primary text-on-primary px-6 py-2 rounded font-label-md mt-4">
+          Call Now
+        </button>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero Section -->
+      <section class="relative bg-primary py-20 md:py-32 overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+          <div
+            class="w-full h-full bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:20px_20px]"
+          ></div>
+        </div>
+        <div
+          class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center relative z-10"
+        >
+          <h1 class="font-headline-xl text-headline-xl text-on-primary mb-6">
+            Our Services and Funeral Plans
+          </h1>
+          <p
+            class="font-body-lg text-body-lg text-primary-fixed max-w-2xl mx-auto"
+          >
+            Providing dignified care with empathy and respect. We guide you
+            through difficult times with stability and quiet professionalism.
+          </p>
+        </div>
+      </section>
+      <!-- Detailed Plans - Family Plans Bento/Card Grid -->
+      <section class="py-20 bg-surface">
+        <div
+          class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"
+        >
+          <div class="mb-12 text-center">
+            <h2 class="font-headline-lg text-headline-lg text-primary mb-4">
+              Comprehensive Family Plans
+            </h2>
+            <p class="text-on-surface-variant">
+              Tailored support for your loved ones during their final journey.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+            <!-- Family Plan A -->
+            <div
+              class="bg-surface-container-lowest border border-outline-variant p-8 rounded-xl flex flex-col h-full shadow-[0_4px_20px_-4px_rgba(11,26,125,0.04)]"
+            >
+              <div class="mb-6">
+                <h3 class="font-headline-md text-headline-md text-primary">
+                  Family Plan A
+                </h3>
+                <div class="text-label-md font-label-md text-secondary mt-2">
+                  Dignified Core Service
+                </div>
+              </div>
+              <ul class="space-y-4 mb-8 flex-grow">
+                <li class="flex items-start gap-3 text-body-md">
+                  <span
+                    class="material-symbols-outlined text-primary text-sm mt-1"
+                    >check_circle</span
+                  >Standard coffin
+                </li>
+                <li class="flex items-start gap-3 text-body-md">
+                  <span
+                    class="material-symbols-outlined text-primary text-sm mt-1"
+                    >check_circle</span
+                  >2 Family cars and hearse
+                </li>
+                <li class="flex items-start gap-3 text-body-md">
+                  <span
+                    class="material-symbols-outlined text-primary text-sm mt-1"
+                    >check_circle</span
+                  >Storage &amp; Funeral program
+                </li>
+                <li class="flex items-start gap-3 text-body-md">
+                  <span
+                    class="material-symbols-outlined text-primary text-sm mt-1"
+                    >check_circle</span
+                  >Tent, 40 chairs &amp; 2 Tables
+                </li>
+                <li class="flex items-start gap-3 text-body-md">
+                  <span
+                    class="material-symbols-outlined text-primary text-sm mt-1"
+                    >check_circle</span
+                  >Death Registration
+                </li>
+                <li class="flex items-start gap-3 text-body-md">
+                  <span
+                    class="material-symbols-outlined text-primary text-sm mt-1"
+                    >check_circle</span
+                  >Grave Decoration and Maker
+                </li>
+              </ul>
+              <div class="bg-primary p-4 rounded-lg text-center">
+                <span class="text-on-primary font-bold text-headline-md"
+                  >R250</span
+                >
+                <span class="text-on-primary opacity-80 text-label-md"
+                  >/per Month</span
+                >
+              </div>
+            </div>
+            <!-- Family Plan B -->
+            <div
+              class="bg-primary text-on-primary border border-primary p-8 rounded-xl flex flex-col h-full scale-105 shadow-xl relative overflow-hidden"
+            >
+              <div
+                class="absolute top-0 right-0 p-2 bg-on-tertiary-container text-on-tertiary text-[10px] font-bold uppercase tracking-widest px-4 py-1"
+              >
+                Recommended
+              </div>
+              <div class="mb-6">
+                <h3 class="font-headline-md text-headline-md text-on-primary">
+                  Family Plan B
+                </h3>
+                <div
+                  class="text-label-md font-label-md text-primary-fixed-dim mt-2"
+                >
+                  Premium Care Package
+                </div>
+              </div>
+              <ul class="space-y-4 mb-8 flex-grow">
+                <li class="flex items-start gap-3 text-body-md">
+                  <span
+                    class="material-symbols-outlined text-white text-sm mt-1"
+                    >check_circle</span
+                  >Standard Casket for MM &amp; Spouse
+                </li>
+                <li class="flex items-start gap-3 text-body-md">
+                  <span
+                    class="material-symbols-outlined text-white text-sm mt-1"
+                    >check_circle</span
+                  >3 Family cars and hearse
+                </li>
+                <li class="flex items-start gap-3 text-body-md">
+                  <span
+                    class="material-symbols-outlined text-white text-sm mt-1"
+                    >check_circle</span
+                  >Storage &amp; Funeral program
+                </li>
+                <li class="flex items-start gap-3 text-body-md">
+                  <span
+                    class="material-symbols-outlined text-white text-sm mt-1"
+                    >check_circle</span
+                  >Tent, 40 chairs &amp; 2 Tables
+                </li>
+                <li class="flex items-start gap-3 text-body-md">
+                  <span
+                    class="material-symbols-outlined text-white text-sm mt-1"
+                    >check_circle</span
+                  >Flowers &amp; 20L Scones
+                </li>
+                <li class="flex items-start gap-3 text-body-md">
+                  <span
+                    class="material-symbols-outlined text-white text-sm mt-1"
+                    >check_circle</span
+                  >3 Packages of Vegetables
+                </li>
+              </ul>
+              <div
+                class="bg-on-primary text-primary p-4 rounded-lg text-center"
+              >
+                <span class="font-bold text-headline-md">R350</span>
+                <span class="opacity-80 text-label-md">/per Month</span>
+              </div>
+            </div>
+            <!-- Family Plan C -->
+            <div
+              class="bg-surface-container-lowest border border-outline-variant p-8 rounded-xl flex flex-col h-full shadow-[0_4px_20px_-4px_rgba(11,26,125,0.04)]"
+            >
+              <div class="mb-6">
+                <h3 class="font-headline-md text-headline-md text-primary">
+                  Family Plan C
+                </h3>
+                <div class="text-label-md font-label-md text-secondary mt-2">
+                  Extended Family Coverage
+                </div>
+              </div>
+              <ul class="space-y-4 mb-8 flex-grow">
+                <li class="flex items-start gap-3 text-body-md">
+                  <span
+                    class="material-symbols-outlined text-primary text-sm mt-1"
+                    >check_circle</span
+                  >2nd Tier Casket for MM &amp; Spouse
+                </li>
+                <li class="flex items-start gap-3 text-body-md">
+                  <span
+                    class="material-symbols-outlined text-primary text-sm mt-1"
+                    >check_circle</span
+                  >Hearse &amp; Bus
+                </li>
+                <li class="flex items-start gap-3 text-body-md">
+                  <span
+                    class="material-symbols-outlined text-primary text-sm mt-1"
+                    >check_circle</span
+                  >R5000 cash back
+                </li>
+                <li class="flex items-start gap-3 text-body-md">
+                  <span
+                    class="material-symbols-outlined text-primary text-sm mt-1"
+                    >check_circle</span
+                  >Toilet &amp; 2x 20L Scones
+                </li>
+                <li class="flex items-start gap-3 text-body-md">
+                  <span
+                    class="material-symbols-outlined text-primary text-sm mt-1"
+                    >check_circle</span
+                  >Death Registration
+                </li>
+                <li class="flex items-start gap-3 text-body-md">
+                  <span
+                    class="material-symbols-outlined text-primary text-sm mt-1"
+                    >check_circle</span
+                  >Grave Decoration and Maker
+                </li>
+              </ul>
+              <div class="bg-primary p-4 rounded-lg text-center">
+                <span class="text-on-primary font-bold text-headline-md"
+                  >R600</span
+                >
+                <span class="text-on-primary opacity-80 text-label-md"
+                  >/per Month</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Fleet Gallery -->
+      <section class="py-20 bg-surface-container-high overflow-hidden">
+        <div
+          class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"
+        >
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter items-center">
+            <div>
+              <h2 class="font-headline-lg text-headline-lg text-primary mb-6">
+                Our Professional Fleet
+              </h2>
+              <p class="text-body-lg text-on-surface-variant mb-8">
+                We maintain a modern, pristine fleet of luxury vehicles
+                including white Audi and BMW models to ensure a dignified final
+                journey for your loved ones.
+              </p>
+              <div class="grid grid-cols-2 gap-4">
+                <div
+                  class="aspect-square bg-surface-container-highest rounded-lg overflow-hidden border border-outline-variant"
+                >
+                  <img
+                    alt="Nivho fleet Audi"
+                    class="w-full h-full object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYzifUQZ4kmoMW9K8xL_Gpg9wp9DREtH7a4Te77kUbO-RgMVzHS0juxFq_u6WLimYbPE5VlZP-OySUk5xDr4OpKM-glFzxpAoXfKIiFeyUz4legbSUhz_eVkzW8AT7m34mcsrSn6jjXpeJKwUZj4Jh8ZdzviVbfE8qJ9s0PKrTUCXqHkzygjorUWcgd4L-Rtxpx-4myJ-gTwTbLcfzhMvzokO_nCl0wtupy_LyfDeFtzqZclhLJcNfq4hN8QK-EZy9IC4AFWibCcIf"
+                  />
+                </div>
+                <div
+                  class="aspect-square bg-surface-container-highest rounded-lg overflow-hidden border border-outline-variant"
+                >
+                  <img
+                    alt="Nivho fleet BMW and Audi lineup"
+                    class="w-full h-full object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwmgm6x33sb2ezWISPWei0mf5k8SmNn2Gk-s1V-1BcSe0A_GdmgWlfRJxLVCZgCawZ05r_9zcENyaKCMrol_t1_3IXwoaspc8rROMlctqLD70ITBEvPkDFDP9FUGo_t9d23elWGgdmWdeuoN5-suV_aQHAE9-r05KoAjzbbdsCXPnp4V52W_N_xT8KIaGpDvJlLCcy9W6ujjx1hhTklhuV1FRViDjfIIFW0HJ1Sr4KMxrJTtawl62Le4zCU5O4TsSvURDs241XmA54"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="relative group">
+              <img
+                alt="Primary Fleet Vehicle"
+                class="rounded-xl shadow-xl w-full h-[500px] object-cover"
+                data-alt="A clean, white luxury Audi SUV parked professionally on a grassy field under a bright but slightly overcast South African sky. The vehicle is the centerpiece, symbolizing dignity and high-end service. Around it are white ceremonial tents and professional staff members in suits, creating an atmosphere of quiet respect and corporate minimalism. The lighting is soft, natural, and even, emphasizing the vehicle's pristine condition and the brand's commitment to quality."
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYzifUQZ4kmoMW9K8xL_Gpg9wp9DREtH7a4Te77kUbO-RgMVzHS0juxFq_u6WLimYbPE5VlZP-OySUk5xDr4OpKM-glFzxpAoXfKIiFeyUz4legbSUhz_eVkzW8AT7m34mcsrSn6jjXpeJKwUZj4Jh8ZdzviVbfE8qJ9s0PKrTUCXqHkzygjorUWcgd4L-Rtxpx-4myJ-gTwTbLcfzhMvzokO_nCl0wtupy_LyfDeFtzqZclhLJcNfq4hN8QK-EZy9IC4AFWibCcIf"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Cash Plans Tables -->
+      <section class="py-20 bg-surface-container-lowest">
+        <div
+          class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop"
+        >
+          <div class="mb-12 text-center">
+            <h2 class="font-headline-lg text-headline-lg text-primary mb-4">
+              Flexible Cash Plans
+            </h2>
+            <p class="text-on-surface-variant">
+              Clear pricing with no hidden costs for comprehensive cover.
+            </p>
+          </div>
+          <div class="space-y-12">
+            <!-- Standard Cash Table -->
+            <div
+              class="overflow-x-auto rounded-xl border border-outline-variant shadow-sm bg-white"
+            >
+              <table class="w-full text-left border-collapse">
+                <thead>
+                  <tr
+                    class="bg-surface-container border-b border-outline-variant"
+                  >
+                    <th
+                      class="px-6 py-4 font-label-md text-label-md text-primary"
+                    >
+                      Cover
+                    </th>
+                    <th
+                      class="px-6 py-4 font-label-md text-label-md text-primary"
+                    >
+                      Age Range
+                    </th>
+                    <th
+                      class="px-6 py-4 font-label-md text-label-md text-primary"
+                    >
+                      Premium
+                    </th>
+                    <th
+                      class="px-6 py-4 font-label-md text-label-md text-primary"
+                    >
+                      Cash Payout
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-outline-variant">
+                  <tr>
+                    <td class="px-6 py-4 text-body-md">Family Plan</td>
+                    <td class="px-6 py-4 text-body-md">0 - 64 years</td>
+                    <td class="px-6 py-4 text-body-md font-semibold">
+                      R202.00
+                    </td>
+                    <td class="px-6 py-4 text-body-md font-bold text-primary">
+                      R10 000.00
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 text-body-md">Family Plan</td>
+                    <td class="px-6 py-4 text-body-md">0 - 64 years</td>
+                    <td class="px-6 py-4 text-body-md font-semibold">
+                      R214.00
+                    </td>
+                    <td class="px-6 py-4 text-body-md font-bold text-primary">
+                      R15 000.00
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 text-body-md">Family Plan</td>
+                    <td class="px-6 py-4 text-body-md">0 - 64 years</td>
+                    <td class="px-6 py-4 text-body-md font-semibold">
+                      R254.00
+                    </td>
+                    <td class="px-6 py-4 text-body-md font-bold text-primary">
+                      R20 000.00
+                    </td>
+                  </tr>
+                  <tr class="bg-surface-container-low">
+                    <td class="px-6 py-4 text-body-md">Extra Member</td>
+                    <td class="px-6 py-4 text-body-md">0 - 64 years</td>
+                    <td class="px-6 py-4 text-body-md font-semibold">R94.00</td>
+                    <td class="px-6 py-4 text-body-md font-bold text-primary">
+                      R5 000.00
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- Senior / Extended Cash Table -->
+            <div
+              class="overflow-x-auto rounded-xl border border-outline-variant shadow-sm bg-white"
+            >
+              <table class="w-full text-left border-collapse">
+                <thead>
+                  <tr
+                    class="bg-surface-container border-b border-outline-variant"
+                  >
+                    <th
+                      class="px-6 py-4 font-label-md text-label-md text-primary"
+                    >
+                      Cover Type
+                    </th>
+                    <th
+                      class="px-6 py-4 font-label-md text-label-md text-primary"
+                    >
+                      Age Range
+                    </th>
+                    <th
+                      class="px-6 py-4 font-label-md text-label-md text-primary"
+                    >
+                      Premium
+                    </th>
+                    <th
+                      class="px-6 py-4 font-label-md text-label-md text-primary"
+                    >
+                      Cash Payout
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-outline-variant">
+                  <tr>
+                    <td class="px-6 py-4 text-body-md">Main Member + Spouse</td>
+                    <td class="px-6 py-4 text-body-md">65 - 85 years</td>
+                    <td class="px-6 py-4 text-body-md font-semibold">
+                      R244.00
+                    </td>
+                    <td class="px-6 py-4 text-body-md font-bold text-primary">
+                      R10 000.00
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 text-body-md">1 + 5 Members</td>
+                    <td class="px-6 py-4 text-body-md">0 - 70 years</td>
+                    <td class="px-6 py-4 text-body-md font-semibold">
+                      R264.00
+                    </td>
+                    <td class="px-6 py-4 text-body-md font-bold text-primary">
+                      R10 000.00
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="px-6 py-4 text-body-md">1 + 9 Members</td>
+                    <td class="px-6 py-4 text-body-md">0 - 70 years</td>
+                    <td class="px-6 py-4 text-body-md font-semibold">
+                      R413.00
+                    </td>
+                    <td class="px-6 py-4 text-body-md font-bold text-primary">
+                      R15 000.00
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- Terms & Additional Services -->
+          <div
+            class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-gutter border-t border-outline-variant pt-12"
+          >
+            <div>
+              <h4 class="font-headline-md text-headline-md text-primary mb-6">
+                Terms &amp; Conditions
+              </h4>
+              <ul class="space-y-4 text-on-surface-variant">
+                <li class="flex gap-2">
+                  <span class="text-primary font-bold">•</span> R100 Joining Fee
+                  applies to all new plans.
+                </li>
+                <li class="flex gap-2">
+                  <span class="text-primary font-bold">•</span> Six months
+                  waiting period for natural death.
+                </li>
+                <li class="flex gap-2">
+                  <span class="text-primary font-bold">•</span> Suicide death 12
+                  months waiting period.
+                </li>
+                <li class="flex gap-2">
+                  <span class="text-primary font-bold">•</span> Accidental death
+                  one month period.
+                </li>
+                <li class="flex gap-2">
+                  <span class="text-primary font-bold">•</span> Maximum Entry
+                  age for funeral cover is 75 years.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="font-headline-md text-headline-md text-primary mb-6">
+                Included Services
+              </h4>
+              <div class="grid grid-cols-2 gap-4">
+                <div
+                  class="p-4 bg-surface-container rounded-lg flex items-center gap-3"
+                >
+                  <span class="material-symbols-outlined text-primary"
+                    >directions_bus</span
+                  >
+                  <span class="text-label-md font-label-md"
+                    >Professional Bus Service</span
+                  >
+                </div>
+                <div
+                  class="p-4 bg-surface-container rounded-lg flex items-center gap-3"
+                >
+                  <span class="material-symbols-outlined text-primary"
+                    >nature</span
+                  >
+                  <span class="text-label-md font-label-md"
+                    >Grave Decoration</span
+                  >
+                </div>
+                <div
+                  class="p-4 bg-surface-container rounded-lg flex items-center gap-3"
+                >
+                  <span class="material-symbols-outlined text-primary"
+                    >local_florist</span
+                  >
+                  <span class="text-label-md font-label-md"
+                    >Fresh Funeral Flowers</span
+                  >
+                </div>
+                <div
+                  class="p-4 bg-surface-container rounded-lg flex items-center gap-3"
+                >
+                  <span class="material-symbols-outlined text-primary"
+                    >app_registration</span
+                  >
+                  <span class="text-label-md font-label-md"
+                    >Death Registration</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer
+      class="bg-surface-container-highest dark:bg-inverse-surface mt-20 border-t border-outline-variant">
+      <div
+        class="grid grid-cols-1 md:grid-cols-4 gap-gutter w-full px-margin-mobile md:px-margin-desktop py-12 max-w-container-max mx-auto">
+        <div class="md:col-span-2">
+          <div
+            class="text-headline-md font-headline-md font-bold text-primary dark:text-inverse-primary mb-4">
+            Nivho Funeral Services
+          </div>
+          <p
+            class="text-on-surface-variant dark:text-surface-variant font-body-md max-w-md">
+            © 2024 Nivho Funeral Services. Providing dignified care with empathy
+            and respect across South Africa. Your stability during times of
+            loss.
+          </p>
+          <div class="mt-6 flex gap-4">
+            <span class="material-symbols-outlined text-primary"
+              >location_on</span
+            >
+            <span class="text-body-md text-on-surface-variant"
+              >Dlamini St, Sharpeville, Vereeniging, 1928</span
+            >
+          </div>
+        </div>
+        <div>
+          <h4 class="font-label-md text-label-md text-primary mb-6">
+            Quick Links
+          </h4>
+          <nav class="flex flex-col gap-4">
+            <a
+              class="text-on-surface-variant dark:text-surface-variant hover:text-primary transition-all"
+              href="../index.html"
+              >Home</a
+            >
+            <a
+              class="text-primary dark:text-inverse-primary font-bold"
+              href="services.html"
+              >Services</a
+            >
+            <a
+              class="text-on-surface-variant dark:text-surface-variant hover:text-primary transition-all"
+              href="contact.html"
+              >Contact</a
+            >
+          </nav>
+        </div>
+        <div>
+          <h4 class="font-label-md text-label-md text-primary mb-6">Socials</h4>
+          <div class="flex gap-1">
+            <a
+              href="https://www.facebook.com/profile.php?id=61579423136306"
+              class="hover:opacity-80 transition-opacity">
+              <i class="fa-brands fa-square-facebook fa-2xl"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
